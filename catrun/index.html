@@ -1,0 +1,37 @@
+<style>
+.corgi {
+  animation: run both steps(11);
+  animation-timeline: scroll();
+  aspect-ratio: 1;
+  display: block;
+  object-fit: cover;
+  object-position: 0 0;
+  width: 120px;
+}
+
+@keyframes run {
+  to {
+    object-position: 100% 0;
+  }
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+}
+
+.spacer {
+  height: 500vh;
+}
+
+  
+</style>
+
+
+<div class="container">
+    <img src="Frame+24.webp" alt="a running party corgi" class="corgi" />
+  </div>
+  <div class="spacer"></div>
